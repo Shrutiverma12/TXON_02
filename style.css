@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.row{
+    margin: 8px 0px;
+}
+.button{
+    font-size: large;
+    padding: 20px;
+    max-width: 6px 6px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+
+}
+
+.container{
+    display: flex;
+    height: 60vh;
+    width: 45vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background : rgb(118, 132, 154); 
+    margin: auto;
+    border-radius: 30px;
+    border: 2px solid rgb(41, 32, 32);
+}
+.row input{
+    font-size: large;
+    margin: 0;
+    padding: 22px 10px;
+    border: 2px solid black;
+}
